@@ -4,6 +4,8 @@ A Ruby Object Mapper for Mongo.
 
 == About this fork
 
+{<img src="https://travis-ci.org/makandra/mongomapper.png?branch=rails2" alt="Build Status" />}[https://travis-ci.org/makandra/mongomapper]
+
 This fork is only to provide Ruby 1.9 compatibility for Rails 2.3.x projects.
 
 Notes:
