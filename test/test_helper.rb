@@ -16,6 +16,8 @@ require 'mocha'
 require 'turn'
 require 'ruby-debug'
 
+require 'ruby19_patches'
+
 class Test::Unit::TestCase
   def Doc(name=nil, &block)
     klass = Class.new do
