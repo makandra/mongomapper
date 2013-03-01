@@ -2,9 +2,24 @@
 
 A Ruby Object Mapper for Mongo.
 
+== About this fork
+
+This fork is only to provide Ruby 1.9 compatibility for Rails 2.3.x projects.
+
+Notes:
+
+* It is based on the "official" +rails2+ branch: https://github.com/jnunemaker/mongomapper/tree/rails2
+* While the +rails2+ branch contains some Ruby 1.9 switches, an essential one was missing and is provided by this fork.
+* Code that introduced functionality for replica sets on that branch was reverted as it broke tests.
+* Tests pass for Ruby 1.8.7 and Ruby 1.9.3
+
 == Install
 
-    $ gem install mongo_mapper
+Add this to your +Gemfile+:
+
+    gem 'mongo_mapper', :git => 'git://github.com/makandra/mongomapper.git', :branch => 'rails2'
+
+Now +bundle+ your project.
 
 == Note on Patches/Pull Requests
 
