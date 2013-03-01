@@ -2,6 +2,12 @@
 
 A Ruby Object Mapper for Mongo.
 
+== About this fork
+
+This fork is only to provide Ruby 1.9 compatibility for Rails 2.3.x projects.
+
+Please view the +rails2+ branch: https://github.com/makandra/mongomapper/tree/rails2
+
 == Install
 
     $ gem install mongo_mapper
